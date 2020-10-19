@@ -17,22 +17,22 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+
 }
 .bar {
-    background-color: #1e2939;
+    background: url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
+    background-color: #1e2939; 
+    background-size: cover;
     width: 370px;
     padding-top: 40px;
-    padding-bottom: 40px;
-    
+    padding-bottom: 40px;  
 }
 .my-photo {
-    width: 370px;
-}
-.contacts-taitl {
-    margin-left: 20px;
+    width: 80%;
+    margin-left: 10%;
 }
 .contacts-container {
-    margin-top: 50px;
+    margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
     color: #ffffff;
@@ -42,24 +42,24 @@ body {
     letter-spacing: 0.42px;
     letter-spacing: 0.42px;
 }
-a {
-    color: #727983;
-}
+a { 
+    text-decoration: none;
+    color: #ffffff;
+}  
 .tech-skills-container {
-    margin-top: 50px;
-    margin-left: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
     margin-right: 40px;
     color: #ffffff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.42px;
-    letter-spacing: 0.42px;
-        
+    letter-spacing: 0.42px;       
 }
 .soft-skills-container {
-    margin-top: 50px;
-    margin-left: 60px;
+    margin-top: 40px;
+    margin-left: 40px;
     margin-right: 40px;
     color: #ffffff;
     font-size: 14px;
@@ -68,12 +68,96 @@ a {
     letter-spacing: 0.42px;
     letter-spacing: 0.42px;
 }
+.language {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.42px;
+    letter-spacing: 0.42px;
+}
+.knowledge-level {
+    width: 90%;
+}
 span {
-    color: #a4aab3;
+    color: #d6dfeb;
 }
-li {
-    color:  #ff6b08;
+.skills {
+    color:  #003077;
 }
+.sociol-container {
+    margin-top: 40px;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.42px;
+    letter-spacing: 0.42px;
+}
+.sociol {
+    color: #ffffff;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+
+}
+.sociol__link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    color: #ffffff;  
+}
+.phone:hover {
+    border-color: #32cd32;
+    box-shadow: 0px 0px 15px #32cd32;
+    color: #32cd32;
+}
+.telegram:hover {
+    border-color: #0088cc;
+    box-shadow: 0px 0px 15px #0088cc;
+    color: #0088cc;
+}
+.viber:hover {
+    border-color: #8f5db7;
+    box-shadow: 0px 0px 15px #8f5db7;
+    color: #8f5db7;
+}
+.gmail:hover {
+    border-color: #d44638;
+    box-shadow: 0px 0px 15px #d44638;
+    color: #d44638;
+}
+.linkedin:hover {
+    border-color: #0077b5;
+    box-shadow: 0px 0px 15px #0077b5;
+    color: #0077b5;
+}
+.skype:hover {
+    border-color: #00aff0;
+    box-shadow: 0px 0px 15px #00aff0;
+    color: #00aff0;
+}
+.github:hover {
+    border-color: #F4CBB2;
+    box-shadow: 0px 0px 15px #F4CBB2;
+    color: #F4CBB2;
+}
+i {
+    width: 20px;
+    font-size: 20px;
+} 
 .abaut-me-container {
     padding-left: 90px;
     padding-right: 90px;
@@ -94,7 +178,7 @@ li {
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 .adaut-mi-taitl {
     font-size: 22px;
@@ -102,8 +186,11 @@ li {
     margin-top: 55px;
     margin-bottom: 35px;
 }
+.data {
+    color:  #525a64;
+}   
 .company {
-    color:  #ff6b08;
+    color:  #003077;
 }
 .work-experience {
     font-size: 12px;
@@ -111,8 +198,8 @@ li {
     line-height: 24px; 
 }
 .education {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 12px;
+    font-weight: 400;
     line-height: 24px;
 }
 .proffesion-title {
@@ -128,5 +215,10 @@ li {
     line-height: 24px;
 }
 .univwesity {
-    color:  #ff6b08;
+    color:  #003077;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }

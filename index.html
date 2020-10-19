@@ -5,51 +5,112 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My resume</title>
     <link rel="stylesheet" href="./CSS/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,100&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a9e1192225.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- main container -->
     <div class="main-container">
         <aside class="bar">
-            <img class="my-photo" src="./img/P80610-200814-01.jpeg" alt="My phoot">
+            <img class="my-photo" src="./img/photo.png" alt="My photo">
              <!-- Contacts container -->
-            <div class="contacts-container"> 
-                <h3 class="contacts-taitl">Contacts</h3>
-                <p><a href="tel:+380672923375">+380672923375</a></p>
-                <p><a href="mailto:mr.onegin94@gmail.com">mr.onegin94@gmail.com</a></p>
-                <p><a href="https://t.me/kirill_onegin">Telegram</a></p>
-                <p><a href="https://www.linkedin.com/in/кирилл-гнеленко-0245361a0/">Linkedin</a></p>
+             <div class="contacts-container">
+                <p>
+                    <i class="fas fa-map-marker-alt"></i>
+                    Dnipro
+                </p>
+                <p>
+                    <i class="far fa-calendar-alt"></i>
+                    May 16, 1994
+                </p> 
+                <p>
+                    <a href="tel:+380672923375">
+                        <i class="fas fa-phone-square-alt"></i>
+                        +380672923375
+                    </a>
+                </p>
+                <p>
+                    <a href="mailto:mr.onegin94@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                        mr.onegin94@gmail.com
+                    </a>
+                </p>
             </div>
             <!-- Tech Skills container -->
             <div class="tech-skills-container">
-                <h3 class="skils-title">Tech Skills</h3>
+                <h3>Tech Skills</h3>
                 <ul>
-                    <li><span>HTML5</span></li>  
-                    <li><span>CSS3</span></li>
-                    <li><span>Linux</span></li>
-                    <li><span>Unix</span></li>
-                    <li><span>Windows OS</span></li>
-                    <li><span>MacOS</span></li>
-                    <li><span>FreeBSD</span></li>
-                    <li><span>Windows Server 2008/2012+</span></li>
-                    <li><span>Ubuntu Server</span></li>
-                    <li><span>FreeRTOST</span></li>
-                    <li><span>Acronis</span></li>
-                    <li><span>Active Directory</span></li>    
+                    <li class="skills"><span>HTML5, CSS3</span></li>
+                    <li class="skills"><span>GIT</span></li>
+                    <li class="skills"><span>Figma</span></li>
+                    <li class="skills"><span>Linux</span></li>
+                    <li class="skills"><span>Unix</span></li>
+                    <li class="skills"><span>Windows OS</span></li>
+                    <li class="skills"><span>MacOS</span></li>
+                    <li class="skills"><span>FreeBSD</span></li>
+                    <li class="skills"><span>Windows Server 2008/2012+</span></li>
+                    <li class="skills"><span>Ubuntu Server</span></li>
+                    <li class="skills"><span>FreeRTOST</span></li>
+                    <li class="skills"><span>Acronis</span></li>
+                    <li class="skills"><span>Active Directory</span></li>    
                 </ul>
             </div>            
             <!-- Soft Skills container -->
             <div class="soft-skills-container">
-                <h3 class="skils-title">Soft Skills</h3>
+                <h3>Soft Skills</h3>
                 <ul>
-                    <li><span>Умение работать в колективе</span></li>
-                    <li><span>Внимание к деталям</span></li>
-                    <li><span>Деловые коммуникации</span></li>
-                    <li><span>Исправление проблем</span></li>
-                    <li><span>Коммуникация</span></li>
-                    <li><span>Быстрая обучаемость</span></li>
+                    <li class="skills"><span>Debugging ConWuence</span></li>
+                    <li class="skills"><span>GTD</span></li>
+                    <li class="skills"><span>Agile</span></li>
+                    <li class="skills"><span>Scrum</span></li>
+                    <li class="skills"><span>Debugging Conriting</span></li>
+                    <li class="skills"><span>TeamWork</span></li>
                 </ul>
-            </div>            
+            </div>
+            <!-- Language container -->
+            <div class="language">
+                <h3>Language</h3>
+                <span>Deutsch</span>
+                <img class="knowledge-level" src="./img/line1.jpg" alt="Elementary">
+                <span>Français</span>
+                <img class="knowledge-level" src="./img/line1.jpg" alt="Elementary">
+                <span>English</span>
+                <img class="knowledge-level" src="./img/line2.jpg" alt="Pre-Intermediate">
+                <span>Ukrainian</span>
+                <img class="knowledge-level" src="./img/line3.jpg" alt="native">
+                <span>Russian</span>
+                <img class="knowledge-level" src="./img/line3.jpg" alt="fluent">
+            </div>
+              <!-- Sociol container -->
+              <div class="sociol-container"> 
+                <ul class="sociol">
+                    <a href="https://t.me/kirill_onegin">
+                        <li class="sociol__link telegram">
+                            <i class="fa fa-telegram"></i>
+                        </li>
+                    </a>
+                    <a href="viber://add?number=380672923375">   
+                        <li class="sociol__link viber">
+                            <i class="fab fa-viber"></i>
+                        </li>
+                    </a> 
+                    <a href="https://www.linkedin.com/in/кирилл-гнеленко-0245361a0/">
+                        <li class="sociol__link linkedin">
+                            <i class="fa fa-linkedin"></i>
+                        </li>
+                    </a>
+                    <a href="skype:kirill_onegin">
+                        <li class="sociol__link skype">
+                            <i class="fa fa-skype"></i>
+                        </li>
+                    </a>
+                    <a href="https://github.com/gnelenkok">
+                        <li class="sociol__link github">
+                            <i class="fa fa-github"></i>
+                        </li>
+                    </a>
+                </ul>
+            </div>           
         </aside>
         <!-- abaut me container -->
         <div class="abaut-me-container">
@@ -57,71 +118,79 @@
             <div>
                 <h2 class="proffesion">DevOps System Administrator</h2>
                 <h1 class="neime">Gnelenko Kirill</h1>
-    
-                <p class="info">- Team training and newbies teaching;</p>
-                <p class="info">- Working with technical documentation and creating articles for the
-                    team;</p>
-                    <p class="info">- Proficient in Linux/Unix/Windows OS administration and
-                    configuration
-                    (Windows 10, MacOS; Server 2008/2012+, FreeBSD, Ubuntu
-                    Server);</p>
-                    <p class="info">- Understanding of networking topologies, Internet services and
-                    protocols;</p>
-                    <p class="info">- Experience in network equipment configuration (including
-                    Mikrotik routers);</p>
-                    <p class="info">- Excellent hardware knowledge;</p>
-                    <p class="info">- Strong communication, troubleshooting and documentation skills.</p>
-                
+                <p class="info">
+                I&nbsp;am a&nbsp;responsible and hardworking person, I&nbsp;always work in&nbsp;full
+                force. I&nbsp;am good at&nbsp;HTML5, CSS3, Git, basic
+                knowledge of&nbsp;JavaScript. I&nbsp;am ready to&nbsp;learn new programming languages       
+                ​​as needed. I&nbsp;am a&nbsp;fast learner and ready for any challenge that
+                will improve my&nbsp;IT knowledge.</p>
+                <p class="info">&mdash;&nbsp;Team training and newbies teaching;</p>
+                <p class="info">&mdash;&nbsp;Working with technical documentation and creating articles for the
+                team;</p> 
+                <p class="info"> &mdash;&nbsp;Proficient in&nbsp;Linux/Unix/Windows&nbsp;OS administration and
+                configuration
+                (Windows&nbsp;10, MacOS; Server 2008/2012+, FreeBSD, Ubuntu
+                Server);</p>
+                <p class="info">&mdash;&nbsp;Understanding of&nbsp;networking topologies, TCP/IP and OSI, Internet services and
+                protocols;</p>
+                <p class="info">&mdash;&nbsp;Experience in&nbsp;network equipment configuration (including
+                Mikrotik routers);</p>
+                <p class="info">&mdash;&nbsp;Excellent hardware knowledge;</p>
+                <p class="info">&mdash;&nbsp;Strong communication, troubleshooting and documentation skills.</p>
             </div>
             <!-- work experience -->
             <div class="work-experience">
                 <h3 class="adaut-mi-taitl">Work Experience</h3>
                 <!-- company 1 -->
                 <div>
-                    <h4 class="proffesion-title">Engineer <span class="company">Yuzhnoye design office SDO</span></h4>
-                    <span>October 2 0 1 3 - February 2 0 1 4 Dnipro, Ukraine</span>
+                    <h4 class="proffesion-title">Engineer <a class="company" href="https://www.yuzhnoye.com/en/home/">Yuzhnoye design office SDO</a></h4>
+                    <span class="data">October 2 0 1 3 - February 2 0 1 4 Dnipro, Ukraine</span>
                 </div>
                 <!-- company 2 -->
                 <div>
-                    <h4 class="proffesion-title">Electronic engineer <span class="company">Neftek LLC</span></h4>
-                    <span>February 2 0 1 4 - August 2 0 1 4 Dnipro, Ukraine</span>
+                    <h4 class="proffesion-title">Electronic engineer <a class="company" href="https://neftek.ua">Neftek LLC</a></h4>
+                    <span class="data">February 2 0 1 4 - August 2 0 1 4 Dnipro, Ukraine</span>
                 </div>
                 <!-- company 3 -->
                 <div>
-                    <h4 class="proffesion-title">Chief Technology Officer <span class="company">Vimber LLC StPetersburg</span></h4>
-                    <span>September 2 0 1 4 - November 2 0 1 5 Saint Petersburg Russia</span>
+                    <h4 class="proffesion-title">Chief Technology Officer <span class="company">Vimber LLC</span></h4>
+                    <span class="data">September 2 0 1 4 - November 2 0 1 5 Saint Petersburg Russia</span>
                 </div>
                 <!-- company 4 -->
                 <div>
-                    <h4 class="proffesion-title">Senior Engineer <span class="company">Yuzhnoye design office SDO</span></h4>
-                    <span>October 2 0 1 5 - March 2 0 1 6 Dnipro, Ukraine</span>
+                    <h4 class="proffesion-title">Senior Engineer <a class="company" href="https://www.yuzhnoye.com/en/home/">Yuzhnoye design office SDO</a></h4>
+                    <span class="data">October 2 0 1 5 - March 2 0 1 6 Dnipro, Ukraine</span>
                 </div>
                 <!-- company 5 -->
                 <div>
-                    <h4 class="proffesion-title">Chief Telecommunications Department <span class="company">Armed forces of ukraine</span></h4>
-                    <span>March 2 0 1 6 - March 2 0 1 9 Dnipro, Ukraine</span>
+                    <h4 class="proffesion-title">Chief Telecommunications Department <a class="company" href="https://www.mil.gov.ua">Armed forces of ukraine</a></h4>
+                    <span class="data">March 2 0 1 6 - March 2 0 1 9 Dnipro, Ukraine</span>
                 </div>
                 <!-- company 6 -->
                 <div>
                     <h4 class="proffesion-title">System Administrator <span class="company">Vest-Dnepr</span></h4>
-                    <span>March 2 0 1 9 - August 2 0 2 0 Dnipro, Ukraine</span>
+                    <span class="data">March 2 0 1 9 - August 2 0 2 0 Dnipro, Ukraine</span>
                 </div>
                 <!-- company 7 -->
                 <div>
-                    <h4 class="proffesion-title">Tier 2-3 Technical Support <span class="company">EDS Group</span></h4>
-                    <span>August 2 0 2 0 - up to now Dnipro, Ukraine</span>
+                    <h4 class="proffesion-title">Tier 2-3 Technical Support <a class="company" href="http://www.eds-group.dp.ua">EDS Group</a></h4>
+                    <span class="data">August 2 0 2 0 - October 2 0 2 0 Dnipro, Ukraine</span>
                 </div>
             </div>
             <!-- Education -->
             <div>
                 <h3 class="adaut-mi-taitl">Education</h3>
                 <div class="education">
-                <h4 class="univwesity">Koledzh Radioelektroniky Dnipro Ukraine</h4>
-                <h5>Faculty of Radio Engineering</h5>
-                <span class="education-time">September 2 0 1 0 - June 2 0 1 4</span>
-                <h4 class="univwesity">ITMO UNIVERSITY Saint Petersburg Russia</h4>
-                <h5>Protection of computer networks</h5>
-                <span class="education-time">September 2 0 1 4 - November 2 0 1 5</span>
+                    <div>
+                        <a class="univwesity" href="https://www.kre.dp.ua">Koledzh Radioelektroniky Dnipro Ukraine</a>
+                        <h4>Faculty of Radio Engineering</h4>
+                        <span class="data">September 2 0 1 0 - June 2 0 1 4</span>
+                    </div>
+                    <div>
+                        <a class="univwesity" href="https://en.itmo.ru">ITMO UNIVERSITY Saint Petersburg Russia</a>
+                        <h4>Protection of computer networks</h4>
+                        <span class="data">September 2 0 1 4 - November 2 0 1 5</span>
+                    </div>
                 </div> 
             </div>
         </div>
