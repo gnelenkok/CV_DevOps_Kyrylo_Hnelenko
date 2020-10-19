@@ -119,11 +119,6 @@ span {
     transition: all 0.3s;
     color: #ffffff;  
 }
-.phone:hover {
-    border-color: #32cd32;
-    box-shadow: 0px 0px 15px #32cd32;
-    color: #32cd32;
-}
 .telegram:hover {
     border-color: #0088cc;
     box-shadow: 0px 0px 15px #0088cc;
@@ -133,11 +128,6 @@ span {
     border-color: #8f5db7;
     box-shadow: 0px 0px 15px #8f5db7;
     color: #8f5db7;
-}
-.gmail:hover {
-    border-color: #d44638;
-    box-shadow: 0px 0px 15px #d44638;
-    color: #d44638;
 }
 .linkedin:hover {
     border-color: #0077b5;
@@ -153,6 +143,11 @@ span {
     border-color: #F4CBB2;
     box-shadow: 0px 0px 15px #F4CBB2;
     color: #F4CBB2;
+}
+.codepen:hover {
+    border-color: #3a3875;
+    box-shadow: 0px 0px 15px #3a3875;
+    color: #3a3875;
 }
 i {
     width: 20px;
