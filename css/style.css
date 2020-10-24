@@ -78,10 +78,7 @@ a {
     line-height: 30px;
     letter-spacing: 0.42px;
     letter-spacing: 0.42px;
-    width: 100%;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
+
 }
 .bar {
     height: 10px;
@@ -198,10 +195,10 @@ i {
     font-size: 20px;
 } 
 .abaut-me-container {
-    padding-left: 90px;
-    padding-right: 90px;
-    padding-top: 110px;
-    padding-bottom: 110px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 8%;
+    padding-bottom: 8%;
 }
 .proffesion {
     font-size: 14px;
