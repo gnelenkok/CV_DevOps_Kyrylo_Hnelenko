@@ -19,7 +19,7 @@ body {
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 
 }
-.bar {
+.sidebar {
     background: url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
     background-color: #1e2939; 
     background-size: cover;
@@ -78,9 +78,53 @@ a {
     line-height: 30px;
     letter-spacing: 0.42px;
     letter-spacing: 0.42px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
 }
-.knowledge-level {
-    width: 90%;
+.bar {
+    height: 10px;
+    width: 290px;
+    border: 2px solid #1e2939;
+    background-color: #465f85; 
+    border-radius: 20px;
+    position: relative;
+}
+.bar span {
+    position: absolute;
+    height: 100%;
+}
+.bar.de span {
+    width: 20%;
+}
+.bar.fr span {
+    width: 20%;
+}
+.bar.en span {
+    width: 30%;
+}
+.bar.uk span {
+    width: 100%;
+}
+.bar.ru span {
+    width: 100%;
+}
+.bar span:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    background-color: #fff;
+    border-radius: 20px;
+    animation: progress_bar 1s ease-in-out forwards;
+}
+@keyframes progress_bar {
+    to {
+      width: 100%;
+    }
 }
 span {
     color: #d6dfeb;
