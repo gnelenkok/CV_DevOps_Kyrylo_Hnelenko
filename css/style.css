@@ -12,12 +12,11 @@ body {
     font-family: Montserrat;
 }
 .main-container {
-    background-color: #ffffff;
+    background-color: #fff;
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
-
 }
 .sidebar {
     background: url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
@@ -35,7 +34,7 @@ body {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -44,13 +43,13 @@ body {
 }
 a { 
     text-decoration: none;
-    color: #ffffff;
+    color: #fff;
 }  
 .tech-skills-container {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -61,7 +60,7 @@ a {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -72,13 +71,12 @@ a {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ffffff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
     letter-spacing: 0.42px;
     letter-spacing: 0.42px;
-
 }
 .bar {
     height: 10px;
@@ -124,7 +122,7 @@ a {
     }
 }
 span {
-    color: #d6dfeb;
+    color: #ebf4ff;
 }
 .skills {
     color:  #003077;
