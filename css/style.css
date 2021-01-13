@@ -23,6 +23,7 @@ body {
 /* Sidebar */
 
 .sidebar {
+    position:relative;
     background: url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
     background-color: #1e2939; 
     background-size: cover;
@@ -217,6 +218,22 @@ body {
     font-size: 20px;
 }
 
+.cv {
+    position: absolute;
+    display: inline-block;
+    bottom:0;
+    margin-bottom: 5%;
+    margin-left: 10%;
+}
+.link_cv {
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease-in;
+}
+.link_cv:hover {
+    color: #465f85;
+}
 /*Abaut me container*/
 
 .abaut-me-container {
@@ -251,6 +268,7 @@ body {
     color:  #525a64;
 }   
 .company {
+    text-decoration: none;
     color:  #003077;
 }
 .work-experience {
@@ -276,6 +294,7 @@ body {
     line-height: 24px;
 }
 .univwesity {
+    text-decoration: none;
     color:  #003077;
     font-size: 16px;
     font-weight: 700;
