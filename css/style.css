@@ -11,7 +11,7 @@ body {
     padding-bottom: 40px;
     font-family: Montserrat;
 }
-.content {
+.main-container {
     background-color: #fff;
     display: flex;
     max-width: 1200px;
@@ -20,16 +20,11 @@ body {
     box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
 }
 
-h3 h2 h1 {
-    font-weight: normal;
-}
-
 /* Sidebar */
 
 .sidebar {
     position:relative;
-    background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)),
-        url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
+    background: url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
     background-color: #1e2939; 
     background-size: cover;
     max-width: 370px;
@@ -47,7 +42,7 @@ h3 h2 h1 {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ebf4ff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -56,7 +51,7 @@ h3 h2 h1 {
 }
 .link { 
     text-decoration: none;
-    color: #ebf4ff;
+    color: #fff;
     transition: color 0.3s ease-in;
 }
 .link:hover {
@@ -69,7 +64,7 @@ h3 h2 h1 {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ebf4ff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -83,7 +78,7 @@ h3 h2 h1 {
     margin-top: 40px;
     margin-left: 40px;
     margin-right: 40px;
-    color: #ebf4ff;
+    color: #fff;
     font-size: 14px;
     font-weight: 400;
     line-height: 30px;
@@ -95,7 +90,7 @@ h3 h2 h1 {
     color: #ebf4ff;
 }
 .list {
-    color:  #465f85;
+    color:  #003077;
 }
 /*Language container*/
 
