@@ -24,7 +24,7 @@ body {
 
 .sidebar {
     position:relative;
-    background: url(https://images.wallpaperscraft.com/image/mountains_peak_aerial_view_135047_1080x1920.jpg) no-repeat;
+    background: url(https://i.pinimg.com/564x/93/8d/7a/938d7a97c40421d3250b00d2c7185572.jpg) no-repeat;
     background-color: #1e2939; 
     background-size: cover;
     max-width: 370px;
@@ -222,7 +222,7 @@ body {
     position: absolute;
     display: inline-block;
     bottom:0;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
     margin-left: 10%;
 }
 .link_cv {
@@ -244,12 +244,12 @@ body {
 }
 .proffesion {
     font-size: 14px;
-    font-weight: 1000;
+    font-weight: 400;
     margin-bottom: 25px;
 }
 .neime {
     font-size: 45px;
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 25px;
 }
 .info {
@@ -260,7 +260,7 @@ body {
 }
 .adaut-mi-taitl {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
     margin-top: 55px;
     margin-bottom: 35px;
 }
@@ -314,12 +314,12 @@ body {
 
 .education {
     font-size: 12px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 24px;
 }
 .proffesion-title {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
     margin-top: 20px;
     margin-bottom: 5px;
@@ -333,7 +333,7 @@ body {
     text-decoration: none;
     color:  #003077;
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 24px;
     margin-top: 20px;
     margin-bottom: 5px;
