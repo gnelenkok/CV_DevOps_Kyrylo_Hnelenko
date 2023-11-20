@@ -16,9 +16,17 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 // Batton more cards
 const btnShowMoreCards = document.querySelector('.btm-more');
 const hiddenCards = document.querySelectorAll('.card--hidden');
+const chevronIcon = document.getElementById('chevron-icon');
 
 btnShowMoreCards.addEventListener('click', function () {    
     hiddenCards.forEach(function(card) {
-        card.classList.remove('card--hidden');
+        card.classList.toggle('card--hidden');
     });
+
+    // Змінюємо клас іконки при кожному кліку
+    chevronIcon.classList.toggle('rotate-icon');
+
+    // Опціонально: змінення тексту кнопки
+    const buttonText = btnShowMoreCards.querySelector('span');
+    buttonText.textContent = (buttonText.textContent === 'More') ? 'Less' : 'More';
 });

@@ -312,6 +312,12 @@ body {
     margin-right: 10px;
 }
 
+.rotate-icon {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in-out;
+}
+
+
 .education {
     font-size: 12px;
     font-weight: 500;
