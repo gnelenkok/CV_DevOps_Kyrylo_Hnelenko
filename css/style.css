@@ -344,3 +344,41 @@ body {
     margin-top: 20px;
     margin-bottom: 5px;
 }
+
+.readmore {
+    max-height: 80px;
+    position: relative;
+    overflow-y: hidden;
+    transition: all 0.5s ease;
+    &.open {
+      max-height: 999px;
+      transition: all 0.5s ease;
+    }
+    .readmore-link {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      width: 100%;
+      text-align: right;
+      margin: 0;
+      padding: 30px 15px 15px 15px;
+      background-image: -moz-linear-gradient(top, transparent, white);
+
+      a {
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 0.6em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        background-color: #555555;
+        padding: 5px 10px;
+        border-radius: 20px;
+        opacity: 0.6;
+        transition: all 0.25s ease;
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  

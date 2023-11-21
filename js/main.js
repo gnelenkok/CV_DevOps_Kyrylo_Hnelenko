@@ -11,6 +11,19 @@ if (window.NodeList && !NodeList.prototype.forEach) {
 	};
 }
 
+var readmore = document.querySelectorAll(".readmore-link a");
+
+for (var i = 0; i < readmore.length; i++) {
+  readmore[i].onclick = function() {
+    let readmoreContainer = this.closest("div");
+    readmoreContainer.classList.toggle("open");
+
+    let label = (this.innerHTML === "...see more") ? "less" : "...see more";
+    this.innerHTML = label;
+
+    return false;
+  };
+}
 
 
 // Batton more cards
