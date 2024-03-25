@@ -15,7 +15,7 @@ var readmore = document.querySelectorAll(".readmore-link a");
 
 for (var i = 0; i < readmore.length; i++) {
   readmore[i].onclick = function() {
-    let readmoreContainer = this.closest("div");
+    let readmoreContainer = this.closest(".readmore");
     readmoreContainer.classList.toggle("open");
 
     let label = (this.innerHTML === "...see more") ? "less" : "...see more";
@@ -24,6 +24,7 @@ for (var i = 0; i < readmore.length; i++) {
     return false;
   };
 }
+
 
 
 // Batton more cards
